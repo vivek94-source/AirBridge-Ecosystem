@@ -1,0 +1,21 @@
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub/
+.pub-cache/
+build/
+ios/Flutter/.last_build_id
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Node
+signaling-server/node_modules/
+
+# Python
+gesture_engine/desktop/.venv/
+gesture_engine/desktop/__pycache__/
+
