@@ -82,6 +82,23 @@ For CLI debug animation mode:
 flutter run -d windows --dart-define=AIRBRIDGE_CLI=true
 ```
 
+## Single-file launcher (recommended)
+
+Run everything (bootstrap + install deps + signaling + gesture + app) with one file:
+
+```powershell
+cd C:\Users\ken07\OneDrive\Desktop\AirBridge
+.\main.ps1
+```
+
+With terminal animation mode:
+
+```powershell
+.\main.ps1 -CliMode
+```
+
+If symlink support is missing, `main.ps1` will prompt to relaunch as Administrator automatically.
+
 ## Gestures (Desktop Phase 1)
 
 - `PINCH START` -> File selection
@@ -102,4 +119,3 @@ flutter run -d windows --dart-define=AIRBRIDGE_CLI=true
 - WebRTC signaling and DataChannel transfer flow is implemented.
 - mDNS discovery is best-effort and depends on local network support.
 - iOS support is not scaffolded in this package because requested platforms were desktop + Android.
-

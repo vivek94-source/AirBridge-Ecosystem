@@ -17,5 +17,5 @@ signaling-server/node_modules/
 
 # Python
 gesture_engine/desktop/.venv/
+gesture_engine/desktop/venv/
 gesture_engine/desktop/__pycache__/
-
